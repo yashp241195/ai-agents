@@ -3,7 +3,7 @@ from phi.agent.duckdb import DuckDbAgent
 from phi.model.groq import Groq
 
 DuckDbAIAgent_analyst = DuckDbAgent(
-    model=Groq(id="llama3-70b-8192"),  
+    model=Groq(id="llama-3.3-70b-versatile"),  
     semantic_model=json.dumps(
         {
             "tables": [
